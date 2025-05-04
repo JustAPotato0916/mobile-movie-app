@@ -1,50 +1,94 @@
-# Welcome to your Expo app 👋
+<a name="readme-top"></a>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h3 align="center">Mobile Movie App</h3>
+</div>
 
-## Get started
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#quick-start">Quick Start</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-1. Install dependencies
+<!-- ABOUT THE PROJECT -->
 
-   ```bash
-   npm install
-   ```
+## About The Project
 
-2. Start the app
+<div align="center">
+   <img src="docs/img/screenshot.png" width="200" alt="Screen Shot"/>
+</div>
 
-   ```bash
-    npx expo start
-   ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-In the output, you'll find options to open the app in a
+### Built With
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [![React Native][react native]][react native-url]
+- [![Expo][Expo]][Expo-url]
+- [![Typescript][Typescript]][Typescript-url]
+- [![TailwindCSS][TailwindCSS]][TailwindCSS-url]
+- [![appwrite][appwrite]][appwrite-url]
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Get a fresh project
+## Quick Start
 
-When you're ready, run:
+<b>Installation</b>
 
-```bash
-npm run reset-project
+Install the project dependencies using npm:
+
+```
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+<b>Set Up Environment Variables</b>
 
-## Learn more
+Create a new file named .env in the root of your project and add the following content:
+```
+EXPO_PUBLIC_MOVIE_API_KEY=
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID=
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Replace the placeholder values with your actual TMDB API key, Appwrite project ID, Database ID, and Collection ID. You can obtain these credentials by signing up on the Appwrite, TMDB.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+<b>Running the Proj</b>ect
 
-## Join the community
+```
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+Open your ExpoGO app on your phone and scan the QR code to view the project.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+- [ React Native Course for Beginners in 2025 | Build a Full Stack React Native App ](https://www.youtube.com/watch?v=f8Z9JyB2EIE)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[product-screenshot]: docs/img/screenshot.png
+[Typescript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[Typescript-url]: https://www.typescriptlang.org/
+[react native]: https://img.shields.io/badge/reactnative-3DDC84?style=for-the-badge&logo=react&logoColor=white
+[react native-url]: https://reactnative.dev/
+[Expo]: https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=Expo&logoColor=white
+[Expo-url]: https://expo.dev/
+[TailwindCSS]: https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[TailwindCSS-url]: https://tailwindcss.com/
+[appwrite]: https://img.shields.io/badge/Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white
+[appwrite-url]: https://appwrite.io/
